@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: genetic-api
+  labels:
+    app: genetic-api
+spec:
+  type: ClusterIP
+  selector:
+    app: genetic-api
+  ports:
+    - name: http
+      port: 80
+      targetPort: 8000
+      protocol: TCP

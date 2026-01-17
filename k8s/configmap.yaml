@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: genetic-api-config
+  labels:
+    app: genetic-api
+data:
+  MODEL_NAME: "sachinbkale27/genetics-llm-lora-merged-v1"
+  LOG_LEVEL: "info"
+  MAX_NEW_TOKENS: "512"
+  TEMPERATURE: "0.7"
