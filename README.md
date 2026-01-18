@@ -34,7 +34,6 @@ cd genetic-api
 # Create virtual environment
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
-# or: venv\Scripts\activate  # Windows
 
 # Install dependencies
 pip install -r requirements.txt
