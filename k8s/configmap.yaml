@@ -9,3 +9,6 @@ data:
   LOG_LEVEL: "info"
   MAX_NEW_TOKENS: "512"
   TEMPERATURE: "0.7"
+  HOST: "0.0.0.0"
+  PORT: "8000"
+  CORS_ORIGINS: "https://genetics.sachinbkale.com,https://sachinbkale.com,https://www.sachinbkale.com"
