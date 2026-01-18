@@ -34,6 +34,16 @@ class Settings(BaseSettings):
     # System prompt for the genetics assistant
     system_prompt: str
 
+    # CORS origins (comma-separated)
+    cors_origins: str = "*"
+
+    @property
+    def cors_origins_list(self) -> list[str]:
+        """Return CORS origins as a list."""
+        if not self.cors_origins or self.cors_origins == "*":
+            return ["*"]
+        return [origin.strip() for origin in self.cors_origins.split(",") if origin.strip()]
+
     @property
     def api_keys_list(self) -> list[str]:
         """Return API keys as a list."""
