@@ -11,4 +11,4 @@ data:
   TEMPERATURE: "0.7"
   HOST: "0.0.0.0"
   PORT: "8000"
-  CORS_ORIGINS: "https://genetics.sachinbkale.com,https://sachinbkale.com,https://www.sachinbkale.com"
+  CORS_ORIGINS: "https://genetics.sachin-kale.com,https://sachin-kale.com,https://www.sachin-kale.com"

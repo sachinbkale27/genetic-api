@@ -18,7 +18,7 @@ metadata:
     alb.ingress.kubernetes.io/unhealthy-threshold-count: "3"
 spec:
   rules:
-    - host: genapi.sachinbkale.com
+    - host: genapi.sachin-kale.com
       http:
         paths:
           - path: /
