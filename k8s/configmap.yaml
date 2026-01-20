@@ -9,6 +9,8 @@ data:
   LOG_LEVEL: "info"
   MAX_NEW_TOKENS: "512"
   TEMPERATURE: "0.7"
+  REQUEST_TIMEOUT: "300"
   HOST: "0.0.0.0"
   PORT: "8000"
   CORS_ORIGINS: "https://genetics.sachin-kale.com,https://sachin-kale.com,https://www.sachin-kale.com"
+  SYSTEM_PROMPT: "You are a genetic research assistant with expertise in molecular biology, genomics, and genetic analysis. Provide accurate, scientifically-grounded answers."

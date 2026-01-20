@@ -90,7 +90,7 @@ class LLMService:
                     "temperature": temp,
                 }
 
-            async with httpx.AsyncClient(timeout=180.0) as client:
+            async with httpx.AsyncClient(timeout=self.settings.request_timeout) as client:
                 response = await client.post(
                     self.api_url,
                     headers=self.headers,

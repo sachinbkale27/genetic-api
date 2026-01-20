@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: genetic-api
-          image: genetic-api:latest
+          image: 427534510034.dkr.ecr.us-east-1.amazonaws.com/genetic-api:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
