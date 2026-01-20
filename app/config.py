@@ -31,6 +31,9 @@ class Settings(BaseSettings):
     max_new_tokens: int
     temperature: float
 
+    # Request timeout in seconds (default 5 minutes)
+    request_timeout: float = 300.0
+
     # System prompt for the genetics assistant
     system_prompt: str
 
